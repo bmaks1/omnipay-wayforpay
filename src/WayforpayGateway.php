@@ -179,7 +179,7 @@ class WayforpayGateway extends AbstractGateway
 
     public function purchase(array $parameters = [])
     {
-        return $this->createRequest('Omnipay\Wayforpay\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('Bmaks1\Wayforpay\Message\PurchaseRequest', $parameters);
     }
 
 
