@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Wayforpay\Message;
+namespace Bmaks1\Wayforpay\Message;
 
 use Omnipay\Common\Exception\InvalidRequestException;
 

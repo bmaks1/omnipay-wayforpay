@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Omnipay\\Wayforpay\\": "src"
+            "Bmaks1\\Wayforpay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Wayforpay\\Test\\": "tests"
+            "Bmaks1\\Wayforpay\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -40,6 +40,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Bmaks1\\Wayforpay\\Providers\\WayforpayServiceProvider"
+            ],
+            "aliases": {
+                "PayPal": "Bmaks1\\Wayforpay\\Facades\\Wayforpay"
+            }
         }
     },
     "minimum-stability": "dev",

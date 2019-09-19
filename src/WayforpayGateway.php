@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Wayforpay;
+namespace Bmaks1\Wayforpay;
 
 use Omnipay\Common\AbstractGateway;
 
